@@ -6,6 +6,7 @@ resource "aws_db_instance" "this" {
 
   engine            = "${var.engine}"
   engine_version    = "${var.engine_version}"
+  license_model     = "${var.license_model}"
   instance_class    = "${var.instance_class}"
   allocated_storage = "${var.allocated_storage}"
   storage_type      = "${var.storage_type}"

@@ -116,3 +116,7 @@ variable "tags" {
   description = "A mapping of tags to assign to all resources"
   default     = {}
 }
+
+variable "license_model" {
+  default = "bring-your-own-license"
+}
