@@ -116,3 +116,7 @@ variable "tags" {
   description = "A mapping of tags to assign to all resources"
   default     = {}
 }
+
+variable "kms_key_id" {
+  default = ""
+}
