@@ -124,3 +124,7 @@ variable "license_model" {
 variable "timezone" {
   default = "GMT Standard Time"
 }
+
+variable "kms_key_id" {
+  default = ""
+}
