@@ -116,3 +116,7 @@ variable "tags" {
   description = "A mapping of tags to assign to all resources"
   default     = {}
 }
+
+variable "timezone" {
+  default = "GMT Standard Time"
+}
