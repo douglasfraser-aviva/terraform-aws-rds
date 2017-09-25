@@ -120,3 +120,7 @@ variable "tags" {
 variable "license_model" {
   default = "bring-your-own-license"
 }
+
+variable "timezone" {
+  default = "GMT Standard Time"
+}
