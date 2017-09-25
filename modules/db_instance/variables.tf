@@ -128,3 +128,6 @@ variable "timezone" {
 variable "kms_key_id" {
   default = ""
 }
+
+variable "option_group_name" {
+}
